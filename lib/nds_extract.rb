@@ -42,7 +42,7 @@ def total_gross(source)
   total_earnings = 0
   index = 0
   
-  while source.each  |element|
+  while source.size > index
     total_earnings += gross_for_director(source[index])
     index += 1
   end
