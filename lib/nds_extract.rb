@@ -30,7 +30,8 @@ def list_of_directors(source)
   index = 0
   
   for source.each{ |element|
-    output << source[index][:name]
+    output.push(source[index][:name])
+    index += 1
   }
   return output
 end
