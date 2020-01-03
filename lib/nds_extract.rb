@@ -43,7 +43,7 @@ def total_gross(source)
   index = 0
   
   for source.each{|element|
-    
+    total_earnings += 
     index += 1
   }
   
