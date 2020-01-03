@@ -30,7 +30,7 @@ def list_of_directors(source)
   output_array = []
   
   while source.size > index do
-    output_array.push()
+    output_array.push(source.)
   end
   return output_array
 
