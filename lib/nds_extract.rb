@@ -27,8 +27,9 @@ end
 def list_of_directors(source)
   # Write this implementation
   output = []
+  index = 0
   
-  for source.each_with_index{ |element, index|
+  for source.each{ |element|
     output << source[index][:name]
   }
   return output
