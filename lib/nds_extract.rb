@@ -28,8 +28,8 @@ def list_of_directors(source)
   # Write this implementation
   output = []
   
-  for source.each{ |element|
-    output << source[director]
+  for source.each_with_index{ |element, index|
+    output << source[index]
     
   }
 end
