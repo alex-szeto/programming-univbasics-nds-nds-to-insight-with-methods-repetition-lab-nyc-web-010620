@@ -45,6 +45,8 @@ def total_gross(source)
   for source.each{|element|
     total_earnings += gross_for_director(source[index])
     index += 1
+  end
+  return total_earnings
   }
   
   
