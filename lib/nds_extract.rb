@@ -28,7 +28,10 @@ def list_of_directors(source)
   # Write this implementation
   output = []
   
-  
+  for source.each{ |element|
+    
+    
+  }
 end
 
 def total_gross(source)
