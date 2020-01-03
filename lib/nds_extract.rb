@@ -26,7 +26,7 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  output = []
+  output = Array.new
   index = 0
   
   while index < source.size do
