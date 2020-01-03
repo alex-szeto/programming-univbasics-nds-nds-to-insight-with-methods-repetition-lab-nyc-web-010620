@@ -29,10 +29,9 @@ def list_of_directors(source)
   output = []
   index = 0
   
-  for source.each{ |element|
+  while source.size > index
     output.push(source[index][:name])
-    index += 1
-  }
+  end
   return output
 end
 
