@@ -29,7 +29,7 @@ def list_of_directors(source)
   output = []
   
   for source.each{ |element|
-    output << 
+    output << source[director]
     
   }
 end
