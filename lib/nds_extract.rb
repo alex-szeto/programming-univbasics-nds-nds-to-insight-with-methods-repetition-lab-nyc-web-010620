@@ -29,9 +29,9 @@ def list_of_directors(source)
   output = []
   
   for source.each_with_index{ |element, index|
-    output << source[index]
-    
+    output << source[index][:name]
   }
+  return output
 end
 
 def total_gross(source)
