@@ -26,6 +26,13 @@ end
 
 def list_of_directors(source)
   # Write this implementation
+  index = 0
+  output_array = []
+  
+  while source.size > index do
+    
+  end
+  return output_array
 
 end
 
